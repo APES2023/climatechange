@@ -21,6 +21,12 @@ a:visited {
     grid-column-gap: 50px;
     grid-template-columns: auto auto auto auto;
 }
-.main {
-    background-image: url("/Users/himtin/desktop/background.jpg");
+.main{
+    background-image: url('/Users/himtin/desktop/climate_change.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(104, 218, 240);
+}
+.video {
+    text-align:center;
 }
