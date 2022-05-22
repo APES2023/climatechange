@@ -3,7 +3,7 @@ h1 {
     text-align:center;
     font-size: 55px;
 }
-a {
+.grid>a {
     font-size: 30px;
     background-color: cyan;
     padding: 20px;
@@ -27,6 +27,25 @@ a:visited {
     background-size: cover;
     background-color: rgb(104, 218, 240);
 }
-.video {
+.media {
     text-align:center;
+}
+table, th, td{
+    border:3px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 6px;
+}
+ol>li {
+    font-size:30px;
+    font-style: oblique;
+    font-weight: bold;
+    color:orange;
+}
+.percentage, .gas, .aspects {
+    text-align:center;
+}
+img {
+    width:30%;
+    height:30%;
 }
