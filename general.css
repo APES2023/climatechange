@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    text-align:center;
+    font-size: 55px;
+}
+a {
+    font-size: 30px;
+    background-color: cyan;
+    padding: 20px;
+    text-align: center;
+}
+a:hover {
+    color: orange;
+}
+a:visited {
+    color: purple;
+}
+.grid {
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+.main {
+    background-image: url("/Users/himtin/desktop/background.jpg");
+}
