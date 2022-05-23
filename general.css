@@ -29,6 +29,7 @@ a:visited {
 }
 .media {
     text-align:center;
+    margin: 15px;
 }
 table, th, td{
     border:3px solid;
@@ -48,4 +49,12 @@ ol>li {
 img {
     width:30%;
     height:30%;
+}
+ol>ul>li {
+    font-size: 20px;
+    list-style: none;
+}
+ol>ul>li:before {
+    content: "\1F30E";
+    margin-right: 10px;
 }
