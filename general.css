@@ -3,30 +3,39 @@ h1 {
     text-align:center;
     font-size: 55px;
 }
-.grid>a {
-    font-size: 30px;
-    background-color: cyan;
-    padding: 20px;
-    text-align: center;
-}
 a:hover {
     color: orange;
 }
 a:visited {
     color: purple;
 }
-.grid {
-    display: grid;
-    padding: 20px;
-    grid-column-gap: 50px;
-    grid-template-columns: auto auto auto auto;
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    cursor:pointer;
+  }
+  
+.dropdown {
+    float :right;
 }
-.main{
-    background-image: url('/Users/himtin/desktop/climate_change.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(104, 218, 240);
+  
+.dropdown_items {
+    background-color: wheat;
+    display:none;
 }
+  
+.dropdown_items a {
+    color: blue;
+    padding: 15px;
+    display: block;
+}
+  
+  .dropdown_items a:hover {background-color:white;}
+  .dropdown:hover .dropdown_items {display: block;}
+  .dropdown:hover .button {background-color: green;}
+
 .media {
     text-align:center;
     margin: 15px;
