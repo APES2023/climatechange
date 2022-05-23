@@ -58,3 +58,19 @@ ol>ul>li:before {
     content: "\1F30E";
     margin-right: 10px;
 }
+#review:before, #review:after {
+    content: "\1F603";
+    margin: 15px;
+}
+#submit {
+    margin: 8px;
+}
+form {
+    margin: 15px;
+}
+#wildfire, #solar{
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+}
