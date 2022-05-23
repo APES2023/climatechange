@@ -32,9 +32,9 @@ a:visited {
     display: block;
 }
   
-  .dropdown_items a:hover {background-color:white;}
-  .dropdown:hover .dropdown_items {display: block;}
-  .dropdown:hover .button {background-color: green;}
+.dropdown_items a:hover {background-color:white;}
+.dropdown:hover .dropdown_items {display: block;}
+.dropdown:hover .button {background-color: green;}
 
 .media {
     text-align:center;
