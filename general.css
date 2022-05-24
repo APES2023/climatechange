@@ -52,7 +52,7 @@ ol>li {
     font-weight: bold;
     color:orange;
 }
-.percentage, .gas, .aspects {
+.percentage, .gas, .aspects, .submit{
     text-align:center;
 }
 img {
@@ -71,9 +71,6 @@ ol>ul>li:before {
     content: "\1F603";
     margin: 15px;
 }
-#submit {
-    margin: 8px;
-}
 form {
     margin: 15px;
 }
@@ -82,4 +79,14 @@ form {
     width: 30%;
     height: 30%;
     margin: 20px;
+}
+#submit{
+    font-size:15px;
+    margin:10px;
+    color:blue;
+} 
+
+.correct, .incorrect {
+    display:none;
+    font-weight:bold;
 }

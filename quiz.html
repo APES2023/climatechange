@@ -8,9 +8,9 @@
     </head>
     <body>
         <h1 id="review">Fun Review</h1>
+        <img id="wildfire" src="/Users/himtin/desktop/Wildfire.jpg" alt="wildfire">
         <h3>Your Score: 0</h3>
         <form>
-            <img id="wildfire" src="/Users/himtin/desktop/Wildfire.jpg" alt="wildfire">
             <p>1. Which of the following is not a major greenhouse gas that contributes to climate change?</p>
             <input type="radio" id="methane" name="greenhouse_gases" value="methane">
             <label for="methane">Methane</label><br>
@@ -20,26 +20,37 @@
             <label for="carbon_dioxide">Carbon dioxide</label><br>
             <input type="radio" id="argon" name="greenhouse_gases" value="argon">
             <label for="argon">Argon</label><br>
-            <button type="button" id = "question_one">Check answer</button>
+            <button type="button" id="question_one">Check answer</button>
+            <p class = "correct">Your answer is correct.</p>
+            <p class = "incorrect">Your answer is incorrect.</p>
             <p>2. Which of the following human activities does not escalate the problem of climate change?</p>
             <input type="radio" id="ev" name="human_activities" value="ev">Switch to electric vehicles<br>
             <input type="radio" id="deforestation" name="human_activities" value="deforestation">Deforestation<br>
             <input type="radio" id="fuels" name="human_activities" value="fuels">Burning of fossil fuels<br>
             <input type="radio" id="wastes" name="human_activities" value="wastes">Food waste<br>
             <button type="button" id = "question_two">Check answer</button>
+            <p class = "correct">Your answer is correct.</p>
+            <p class = "incorrect">Your answer is incorrect.</p>
             <p>3. Select all consequences of climate change.</p>
+            <img id="solar" src="/Users/himtin/desktop/solar.jpg" alt="solar_panels">
             <input type="checkbox" id="sea_level" class="effects" value="sea_level">Rising sea level<br>
             <input type="checkbox" id="drought" class="effects" value="drought">Drought<br>
             <input type="checkbox" id="temperature" class="effects" value="temperature">Continuous increase in temperature<br>
             <input type="checkbox" id="nota" class="effects" value="nota">None of the above<br>
             <button type="button" id = "question_three">Check answer</button>
-            <img id="solar" src="/Users/himtin/desktop/solar.jpg" alt="solar_panels">
+            <p class = "correct">Your answer is correct.</p>
+            <p class = "incorrect">Your answer is incorrect.</p>
             <p>4. Select all possible responses that would alleviate the impacts of climate change.</p>
             <input type="checkbox" id="solar_panels" class="responses" value="solar_panels">Install solar panels<br>
             <input type="checkbox" id="gas-powered_cars" class="responses" value="gas-powered_cars">Travel by gas-powered cars instead of electrical vehicles<br>
             <input type="checkbox" id="reliance" class="responses" value="reliance">Solely rely on government's responses<br>
             <input type="checkbox" id="share" class="responses" value="share">Share knowledge and increase awareness related to climate change<br>
-            <button type="button" id = "question_four">Check answer</button>
+            <button type="button" id = "question_four">Check answer</button><br>
+            <p class = "correct">Your answer is correct.</p>
+            <p class = "incorrect">Your answer is incorrect.</p>
+            <div class = "submit">
+                <input id="submit" type = "submit" value="Reset All">
+            </div>
         </form>
         <a href="index.html" style="margin: 20px;"><-Back to Home</a>
     </body>
